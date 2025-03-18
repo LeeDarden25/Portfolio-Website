@@ -215,7 +215,7 @@ ul, li {
     width: 75%;
     height: 100%
 }
-#work-hero button {
+#work-hero a {
     border-radius:10px;
     display:block;
     color: black;
@@ -224,8 +224,12 @@ ul, li {
     border: none;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
+    text-align: center;
+    margin:auto;
+    width:20%;
+    text-decoration: none;
 }
-#work-hero button:hover {
+#work-hero a:hover {
     color:white;
     background-color: black;
     border: 2px solid white;
@@ -476,7 +480,7 @@ footer a:hover {
     #work-hero img {
         width: 100%;
     }
-    #work-hero button {
+    #work-hero a {
         font-size: 13px;
         width: 80%;
         margin: auto;
@@ -613,7 +617,7 @@ footer a:hover {
     #work-hero img {
         width: 100%;
     }
-    #work-hero button {
+    #work-hero a {
         font-size: 13px;
         width: 80%;
         margin: auto;
@@ -741,7 +745,7 @@ footer a:hover {
     #work-hero img {
         width: 100%;
     }
-    #work-hero button {
+    #work-hero a {
         font-size: 70%;
         width: 33%;
         margin: auto;
@@ -881,7 +885,7 @@ footer a:hover {
     #work-hero img {
         width: 100%;
     }
-    #work-hero button {
+    #work-hero a {
         font-size: 15px;
         width: 33%;
         margin: auto;
@@ -1019,7 +1023,7 @@ footer a:hover {
     #work-hero img {
         width: 100%;
     }
-    #work-hero button {
+    #work-hero a {
         font-size: 15px;
         width: 33%;
         margin: auto;
@@ -1168,7 +1172,7 @@ footer a:hover {
     #work-hero img {
         width: 100%;
     }
-    #work-hero button {
+    #work-hero a {
         font-size: 15px;
         width: 25%;
         margin: auto;
