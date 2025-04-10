@@ -1171,6 +1171,7 @@ footer a:hover {
     }
     #work-hero img {
         width: 100%;
+        height: 500px;
     }
     #work-hero a {
         font-size: 15px;
