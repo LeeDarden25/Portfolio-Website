@@ -212,7 +212,7 @@ ul, li {
 }
 #work-hero img{
     padding-bottom: 10px;
-    width: 75%;
+    width: 25%;
     height: 100%
 }
 #work-hero a {
@@ -327,7 +327,13 @@ footer h1 {
     margin: auto;
     font-size: 3rem;
 }
-footer a {
+#footer-list1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.footer-list2 a {
     text-align: center;
     text-decoration: none;
     color: white;
@@ -339,25 +345,9 @@ footer a {
     font-family: "Poppins", sans-serif;
     padding: 2px;
 }
-footer a:hover {
+.footer-list2 a:hover {
     background-color: white;
     color: black;
-}
-.footer-list1{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin:auto;
-}
-.footer-list1 li {
-    padding:5px;
-}
-.footer-list1 img {
-    background-color: grey;
-    border-radius: 10px;
-    padding: 1px;
-    width: 30px;
 }
 .footer-list2{
     text-align: center;
@@ -1089,7 +1079,7 @@ footer a:hover {
     }
     #home-image {
         margin: auto;
-        width: 100%;
+        width: 50%;
         padding-left: 4rem;
         padding-bottom: 6rem;
     }
@@ -1171,7 +1161,7 @@ footer a:hover {
     }
     #work-hero img {
         width: 100%;
-        height: 500px;
+        height: 600px;
     }
     #work-hero a {
         font-size: 15px;
@@ -1197,5 +1187,8 @@ footer a:hover {
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    #work-hero img {
+        width: 100%;
+        height: 650px;
+    }
 }
